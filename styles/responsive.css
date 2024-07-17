@@ -4,6 +4,11 @@
         flex-direction: column;
     }
 
+    h2{
+        font-size: 34px;
+        
+    }
+
 
     /* header section  */
     .nav-options{
@@ -18,7 +23,7 @@
         width: 100%;
     }
     .banner-title{
-        font-size: 36px;
+        font-size: 48px;
     }
     .club{
         display: none;
@@ -57,4 +62,12 @@
     }
 
     /* main section  */
+
+    /* HABIT SECTIONS  */
+    .habits-content{
+        margin-top: 54px ;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
 }
