@@ -248,3 +248,47 @@ section{
     bottom: 20px;
     left: 30px;
 }
+
+
+
+
+/* footer section  */
+
+footer{
+    margin-top: 88px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-contents{
+    justify-content: space-between;
+}
+.fitness{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.footer-links h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.footer-links li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+}
+hr{
+    margin-top: 79px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+#reserved{
+    text-align: center;
+    margin: 36px 0;
+}

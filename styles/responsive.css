@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px) {
     /* common styles  */
     .banner, 
-    .run-container{
+    .run-container,
+    .footer-contents{
         flex-direction: column;
     }
 
@@ -98,5 +99,14 @@
     }
     .members img{
         height: 272px;
+    }
+
+
+    /* footer */
+    .footer-contents{
+        gap: 30px;
+    }
+    hr{
+        margin-top: 72px;
     }
 }
