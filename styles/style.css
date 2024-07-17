@@ -36,6 +36,7 @@ body{
     border-radius: 42px;
     background: rgb(230, 83, 60);
     margin-top: 34px;
+    cursor: pointer;
 }
 
 h2{
@@ -203,3 +204,24 @@ section{
     font-weight: 600;
     margin-bottom: 10px;
 }
+
+/* run an extra mile easily sections  */
+
+.run-container{
+    margin-top: 100px;
+    padding: 32px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.run-content{
+    width: 40%;
+}
+
+.run-content img{
+    width: 100%;
+    border-radius: 18px;
+}
+

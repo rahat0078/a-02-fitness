@@ -1,6 +1,7 @@
 @media screen and (max-width: 576px) {
     /* common styles  */
-    .banner{
+    .banner, 
+    .run-container{
         flex-direction: column;
     }
 
@@ -65,9 +66,22 @@
 
     /* HABIT SECTIONS  */
     .habits-content{
-        margin-top: 54px ;
-        display: grid;
         grid-template-columns: 1fr;
         gap: 50px;
+    }
+
+    /* run an extra mile easily sections  */
+    .run-container{
+        margin-top: 50px;
+        gap: 31px;
+    }
+    
+    .run-content{
+        width: 100%;
+    }
+    
+    .run-content img{
+        width: 100%;
+        border-radius: 18px;
     }
 }
