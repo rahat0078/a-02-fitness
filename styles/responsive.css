@@ -1,0 +1,60 @@
+@media screen and (max-width: 576px) {
+    /* common styles  */
+    .banner{
+        flex-direction: column;
+    }
+
+
+    /* header section  */
+    .nav-options{
+        display: none;
+        
+    }
+    .banner{
+        justify-content: space-between;
+        align-items: start;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 36px;
+    }
+    .club{
+        display: none;
+    }
+    .button{
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+    }
+    .header-btn{
+        padding: 12px 24px;
+    }
+    .banner-cards-content-1 {
+        top: 80px;
+        left: 200px;
+    }
+    .banner-cards-content-2 {
+        position: absolute;
+        bottom: 240px;
+        right: 160px;
+    }
+    .b-cards-1{ 
+        font-size: 28px;
+    }
+    .b-cards-2{
+        font-size: 18px;
+    }
+    .banner-cards p{
+        font-size: 10px;
+    }
+    .banner-cards{
+        max-width: 160px;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    /* main section  */
+}

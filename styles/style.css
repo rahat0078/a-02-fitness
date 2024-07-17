@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+
+/* shared style  */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    margin-top: 34px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+
+/* header setion styles  */
+header{
+    background: linear-gradient(180.00deg, rgba(119, 119, 119, 0.125),rgba(119, 119, 119, 0.125) 100%);
+    padding-top: 57px;
+}
+
+/* navbar style  */
+.navbar{  
+    margin-bottom: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    text-align: left;
+}
+.nav-options {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 7px 20px 7px;
+}
+.nav-options li {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    list-style: none;
+    cursor: pointer;
+    padding: 7px 36px;
+}
+#home {
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    margin-left: -12px;
+}
+
+
+/* banner section  */
+
+.banner{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content{
+    width: 40%;
+    text-align: left;
+}
+
+.banner-title{
+    font-size: 78px;
+    font-weight: 900;
+    margin-bottom: 28px;
+    
+}
+
+.download-btn{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px;
+    background-color: transparent;
+    margin-top: 34px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    margin-left: 8px;
+    
+}
+
+
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+.banner-img{
+    position: relative;
+}
+
+/* banner cards  */
+.banner-cards-content-1 {
+    position: absolute;
+    top: 152px;
+    left: 210px;
+}
+.banner-cards-content-2 {
+    position: absolute;
+    bottom: 56px;
+    right: 238px;
+}
+
+.banner-cards{
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 206px;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.b-cards-1{ 
+    font-size: 40px;
+    font-weight: 900;
+}
+.b-cards-2{
+    font-size: 28px;
+    font-weight: 900;
+}
+.play-btn {
+    background-color: rgb(230, 83, 60);
+    padding: 5px 9px 5px 11px;
+    border-radius: 50%;
+}
+
+
+/* main  */
+
+
+/* section{
+    padding-top: 100px;
+}
+
+
+
+.habits-heading{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
