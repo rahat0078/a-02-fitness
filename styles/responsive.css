@@ -90,6 +90,42 @@
     }
 
     /* challenges sections */
+    /* bmi calculator  */
+
+    .bmi-heading{
+        padding-bottom: 44px;
+        width: 100%;
+        padding-left: 44px;
+    }
+    .bmi-content{
+        grid-template-columns: 1fr ;
+        gap: 48px;
+    }
+    
+    .bmi-title{
+    font-size: 16px;
+    }
+    #bmi-description{
+        margin-top: 8px;
+    }
+    
+    table{
+        margin-top: 24px;
+    }
+    
+    .form-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+    input, select{
+        padding: 12px 4px;
+    }
+    .activity-factor{
+        grid-column: 1fr ;
+        padding: 12px;
+    }
+    
 
     /* our teams sections  */ 
     .team-members{
