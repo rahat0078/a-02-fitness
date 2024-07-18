@@ -63,6 +63,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.menu-bar{
+    display: none;
+}
 
 .nav-logo{
     color: rgb(230, 83, 60);

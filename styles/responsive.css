@@ -21,6 +21,10 @@
         display: none;
         
     }
+    .menu-bar{
+        display: Block;
+
+    }
     .banner{
         justify-content: space-between;
         align-items: start;
