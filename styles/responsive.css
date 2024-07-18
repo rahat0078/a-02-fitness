@@ -2,7 +2,8 @@
     /* common styles  */
     .banner, 
     .run-container,
-    .footer-contents{
+    .footer-contents,
+    .vision-card-container{
         flex-direction: column;
     }
 
@@ -135,6 +136,33 @@
     }
     .members img{
         height: 272px;
+    }
+
+
+    /* vision section  */
+    
+    .vision-card-container{
+       padding: 0;
+       gap: 10px;
+    }
+    
+
+    
+    .vision-card{
+        border-radius: 8px;
+        width: 80%;
+        height: auto;
+        padding: 16px; 
+    }
+    #icon{
+        padding-top: 10px;
+        padding-left: 45%;
+    }
+    
+    .vision-title{
+        font-size: 14px;
+        padding: 14px;
+        text-align: center;
     }
 
 
