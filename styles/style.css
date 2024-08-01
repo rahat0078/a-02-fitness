@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 *{
     margin: 0;
@@ -11,7 +11,7 @@
 
 body{
     font-family: "Inter", sans-serif;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
 }
 
 /* shared style  */
@@ -26,8 +26,9 @@ body{
 
 .description{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
+    line-height: 24px;
 }
 .btn-primary{
     color: rgb(255, 255, 255);
@@ -53,8 +54,8 @@ header{
     background: linear-gradient(180.00deg, rgba(119, 119, 119, 0.125),rgba(119, 119, 119, 0.125) 100%);
     padding-top: 57px;
 }
-.curve-font{
-    font-family: "Playwrite CU", cursive;
+.different-font{
+    font-family: "Great Vibes", cursive;
 }
 
 /* navbar style  */
@@ -91,7 +92,7 @@ header{
 #home {
     border-radius: 46px;
     background: rgb(230, 83, 60);
-    margin-left: -12px;
+    margin-left: -14px;
 }
 
 
@@ -103,7 +104,7 @@ header{
 }
 
 .banner-content{
-    width: 40%;
+    /* width: 40%; */
     text-align: left;
 }
 
@@ -118,7 +119,7 @@ header{
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
-    padding: 16px 40px;
+    padding: 14px 38px;
     background-color: transparent;
     margin-top: 34px;
     border: 1px solid rgb(255, 255, 255);
@@ -139,8 +140,8 @@ header{
 /* banner cards  */
 .banner-cards-content-1 {
     position: absolute;
-    top: 152px;
-    left: 210px;
+    top: 148px;
+    left: 200px;
 }
 .banner-cards-content-2 {
     position: absolute;
@@ -286,6 +287,7 @@ input, select{
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border: none;
+    width: 100%;
 }
 .activity-factor{
     grid-column: 1/span 2;
@@ -316,6 +318,7 @@ input, select{
     width: 100%;
     height: 320px;
     border-radius: 18px;
+    filter: brightness(70%);
 }
 .trainers{
     position: absolute;
@@ -346,11 +349,11 @@ input, select{
 }
 
 .vision-card{
-    background-color: #424242;
+    background-color: rgba(94, 93, 93, 0.8);
     border-radius: 16px;
     width: 20%;
-    height: 200px;
-    padding: 8px; 
+    /* height: 200px; */
+    padding: 8px 8px 24px 8px; 
 }
 .vision-card p{
     text-align: center;

@@ -15,6 +15,14 @@
         padding-top: 50px;
     }
 
+    .description{
+        font-size: 14px;
+    }
+
+    br{
+        display: none;
+    }
+
 
     /* header section  */
     .nav-options{
@@ -28,9 +36,6 @@
     .banner{
         justify-content: space-between;
         align-items: start;
-    }
-    .banner-content{
-        width: 100%;
     }
     .banner-title{
         font-size: 48px;
@@ -46,15 +51,18 @@
     .header-btn{
         padding: 12px 24px;
     }
+
     .banner-cards-content-1 {
-        top: 100px;
+        position: absolute;
+        top: 52px;
         left: 180px;
     }
     .banner-cards-content-2 {
         position: absolute;
-        bottom: 240px;
-        right: 160px;
+        bottom: 238px;
+        right: 188px;
     }
+
     .b-cards-1{ 
         font-size: 28px;
     }
@@ -102,8 +110,14 @@
         width: 100%;
         padding-left: 44px;
     }
+    .bmi-heading p > br{
+        display: block;
+    }
+
+    
     .bmi-content{
         grid-template-columns: 1fr ;
+        column-span: 1;
         gap: 48px;
     }
     
@@ -172,6 +186,9 @@
     /* footer */
     .footer-contents{
         gap: 30px;
+    }
+    .footer-contents p >br{
+        display: none;
     }
     hr{
         margin-top: 72px;
