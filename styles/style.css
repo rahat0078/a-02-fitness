@@ -225,6 +225,10 @@ section{
     width: 40%;
 }
 
+.run-content p{
+    max-width: 420px;
+}
+
 .run-content img{
     width: 100%;
     border-radius: 18px;
