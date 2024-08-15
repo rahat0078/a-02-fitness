@@ -18,6 +18,11 @@
         font-size: 14px;
     }
 
+    .btn-primary, .download-btn{
+        font-size: 14px;
+        padding: 12px 18px;
+    }
+    
     br{
         display: none;
     }
