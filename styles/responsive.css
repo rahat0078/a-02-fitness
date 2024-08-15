@@ -2,8 +2,7 @@
     /* common styles  */
     .banner, 
     .run-container,
-    .footer-contents,
-    .vision-card-container{
+    .footer-contents{
         flex-direction: column;
     }
 
@@ -87,6 +86,8 @@
         gap: 50px;
     }
 
+
+
     /* run an extra mile easily sections  */
     .run-container{
         margin-top: 50px;
@@ -160,30 +161,24 @@
     }
 
 
-    /* vision section  */
-    
-    .vision-card-container{
-       padding: 0;
-       gap: 10px;
-    }
+    /* service section  */
     
 
-    
-    .vision-card{
-        border-radius: 8px;
-        width: 80%;
-        height: auto;
-        padding: 16px; 
-    }
-    #icon{
-        padding-top: 10px;
-        padding-left: 45%;
+    .service-header{
+        margin-bottom: 50px;
+    } 
+    .service-card-container{
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin: 0 30px;
     }
     
-    .vision-title{
-        font-size: 14px;
-        padding: 14px;
-        text-align: center;
+    .service-card{
+        padding: 18px; 
+    }
+
+    .service-title{
+        font-size: 18px;
     }
 
 

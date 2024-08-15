@@ -37,7 +37,7 @@ body{
     padding: 16px 40px;
     border: none;
     border-radius: 42px;
-    background: rgb(230, 83, 60);
+    background: #e6533c;
     margin-top: 34px;
     cursor: pointer;
 }
@@ -331,46 +331,50 @@ input, select{
 }
 
 
-/* our vision section  */
-.vision{
+/* Services section  */
+.service{
     margin-top: 100px;
-    background-image: linear-gradient(180.00deg, rgba(60, 42, 42, 0.305),rgba(51, 42, 42, 0.424) 100%), url(../images/exercise2.png);
+    padding-bottom: 50px;
+    background-image: linear-gradient(180.00deg, rgba(51, 36, 36, 0.305),rgba(26, 21, 21, 0.424) 100%), url(../images/creative-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
-.vision-card-container{
-   padding: 100px 0 50px 0;
-   align-items: center;
-   justify-content: center;
-   gap: 60px;
-}
-
-.vision-container{
+.service-header{
     text-align: center;
+    margin-bottom: 100px;
 }
 
-.vision-card{
-    background-color: rgba(94, 93, 93, 0.8);
+.service-header span{
+color: #e6533c;
+}
+
+
+.service-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin: 0 40px;
+}
+
+
+
+.service-card{
+    background-color: rgba(87, 90, 94, 0.8);
     border-radius: 16px;
-    width: 20%;
-    /* height: 200px; */
-    padding: 8px 8px 24px 8px; 
-}
-.vision-card p{
-    text-align: center;
-}
-#icon{
-    padding-top: 10px;
-    padding-left: 45%;
+    padding: 28px; 
 }
 
-.vision-title{
+.service-card h4, p{
+    padding: 8px 0;
+}
+
+
+.service-title{
     font-size: 24px;
-    padding: 14px;
-    text-align: center;
+    color: rgb(231, 79, 79);
 }
 
 
